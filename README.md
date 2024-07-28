@@ -13,6 +13,7 @@ This project consists of a backend server and a React frontend. Follow the instr
 - MongoDB
 - Cloudinary account (if using Cloudinary for image uploads)
 - React
+- Tailwind CSS
 
 ### Backend Setup
 
@@ -57,7 +58,9 @@ This project consists of a backend server and a React frontend. Follow the instr
 
 3. Update the frontend configuration to match the port used by the backend server if it differs from 8080.
 
-4. Start the React app:
+4.  Ensure the `assets` folder is present in the root of the frontend folder.
+
+5. Start the React app:
 
     ```bash
     npm start
