@@ -9,7 +9,7 @@ This project consists of a backend server and a React frontend. Follow the instr
 ### Prerequisites
 
 - Node.js
-- npm 
+- npm
 - MongoDB
 - Cloudinary account (if using Cloudinary for image uploads)
 - React
@@ -58,7 +58,9 @@ This project consists of a backend server and a React frontend. Follow the instr
 
 3. Update the frontend configuration to match the port used by the backend server if it differs from 8080.
 
-4.  Ensure the `assets` folder is present in the root of the frontend folder.
+4. Ensure the `assets` folder is present in the root of the frontend folder. You can download the `assets` folder from the following link:
+    
+    [Assets Folder](https://drive.google.com/drive/folders/1vlTyBsmPxatu-huqpOgeP6xIEQqARgGD?usp=drive_link)
 
 5. Start the React app:
 
@@ -74,4 +76,3 @@ This project consists of a backend server and a React frontend. Follow the instr
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
-
