@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+.font-roboto-slab {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5rem;
+  color: #ffa200;
+  /* Light color for contrast */
+}
+.glow-border {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #141414; /* Netflix-like dark background */
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+.banner-container {
+  background-color: #333333; /* Slightly lighter dark background for the banner */
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-metallic-dark {
+  background: radial-gradient(circle at top left, #3a3a3a, #1f1f1f);
+}
+
+/* Glowing border effect */
+.border-gradient-glow {
+  border-image: linear-gradient(45deg, #FF6F61, #FFCCBC, #FF6F61);
+  border-image-slice: 1;
+  animation: borderAnimation 2s linear infinite;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-image-source: linear-gradient(45deg, #FF6F61, #FFCCBC, #FF6F61);
+  }
+
+  50% {
+    border-image-source: linear-gradient(45deg, #FFCCBC, #FF6F61, #FFCCBC);
+  }
+
+  100% {
+    border-image-source: linear-gradient(45deg, #FF6F61, #FFCCBC, #FF6F61);
+  }
+}
